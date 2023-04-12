@@ -1,0 +1,42 @@
+/* offer content */
+.offer-overview {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: -20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: white;
+}
+
+.offer-title {
+  align-items: center;
+  color : rgb(56, 161, 126);
+}
+
+.offer-title-icon {
+  width: 1em;
+  margin-bottom: -3px;
+  margin-right: 5px;
+}
+
+.offer-opening {
+  font-weight: 800;
+}
+
+.offer-job-emphasis {
+  font-weight: 800;
+}
+
+.offer-skill {
+  font-weight: 700;
+  color: rgb(56, 161, 126);
+}
+
+.offer-list {
+  margin-left: 30px;
+}
+
+.offer-contact {
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}

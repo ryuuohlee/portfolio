@@ -1,0 +1,88 @@
+.personal-recommendations {
+  display: flex;
+  justify-content: center;
+  float: right;
+  height: 10rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+  width: 60%;
+  background: lightgray;
+  color: black;
+}
+
+.recom-card {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.recom-note {
+  height: fit-content;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.recom-recommender {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.quote {
+  margin: 10px;
+}
+
+.carousel-slider {
+  height: 200px;
+}
+
+.slider-wrapper {
+  height: 200px !important;
+}
+
+.carousel-status {
+  display: none;
+}
+
+@media screen and (max-width: 1080px) {
+  .personal-recommendations {
+    justify-content: center;
+    height: 30rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 30px;
+  }
+
+  .recom-note {
+    text-align: center;
+    height: fit-content;
+    margin: auto;
+  }
+
+  .quote {
+    margin: 15px;
+  }
+
+  .carousel-root {
+    width: 75%;
+  }
+
+  .carousel-slider {
+    margin-top: -100px;
+    height: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .slider-wrapper {
+    height: 470px !important;
+  }
+
+  .slider-animated {
+    height: 470px !important;
+  }
+
+}
